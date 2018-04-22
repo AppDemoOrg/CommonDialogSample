@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.abt.custom_various_dialog">
+    package="com.abt.dialog">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,7 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         android:uiOptions="splitActionBarWhenNarrow" >
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.abt.dialog.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package com.abt.custom_various_dialog;
+package com.abt.dialog;
 
 import android.app.Activity;
 import android.app.AlertDialog;
