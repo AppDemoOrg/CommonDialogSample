@@ -13,9 +13,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 /**
- * Created by Administrator on 2017/11/16 0016.
+ * Created by hwq on 2017/11/16 0016.
  */
-
 public class DialogFactory {
 
     private static final String TAG = DialogFactory.class.getSimpleName();
@@ -36,7 +35,6 @@ public class DialogFactory {
     }
 
     public void simpleDialog(String title, String content) {
-
         LayoutInflater inflater = ((Activity)mContext).getLayoutInflater();
         View dialog = inflater.inflate(R.layout.dialog_layout_simple, (ViewGroup) ((Activity)mContext).findViewById(R.id.dialog_simple));
         ((TextView) dialog.findViewById(R.id.title)).setText(title);
